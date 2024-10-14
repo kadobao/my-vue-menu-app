@@ -133,9 +133,10 @@ watchEffect(() => {
 </script>
 
 <style>
+/*左侧导航栏的样式*/
 .el-menu-vertical-demo {
   height: 100%;
-  border-right: 1px solid #d3dce6;
+  border-right: 1px solid #d3dce6;   /*这是给这个元素的右侧添加一条边框，宽度为 1 像素，颜色为浅灰色（#d3dce6）。这种边框常用于为左侧导航栏和页面其他部分之间增加一个视觉分隔，使得布局更清晰。*/
 }
 .el-menu-demo {
   background-color: #545c64;
